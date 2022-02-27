@@ -2,6 +2,9 @@
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -24,10 +27,13 @@
     background: var(--primary-color)
 }
 
-body {
+  body{
+    background: #f7f7f7;
     padding-top: 120px;
     font-family: 'Muli', sans-serif;
-}
+    font-size: .875em;
+  }
+
 
 .h1,
 .h2,
@@ -242,6 +248,7 @@ Header intro
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 50px 20px;
     justify-items: center;
+    margin-bottom: 5rem;
   }
 
 /* Portfolio */
@@ -462,3 +469,62 @@ Header intro
         font-size: 4.5rem;
     }
 }
+
+/* CONTAINERS */
+main{
+    margin: auto;
+    max-width: 380px;
+  }
+  section{
+    background: #fff;
+    border-radius: .25em;
+    box-shadow: 0 .15em .175em hsla(0,0%,0%,.1);
+    margin: 1.5em;
+    overflow: hidden;
+  }
+  figure{
+    height: 12.5em;
+  }
+  article{
+    padding: 2em;
+  }
+  
+  /* IMAGE */
+  img{
+    height: 100%;
+    object-fit: fill;
+    width: 100%;
+  }
+  
+  /* TYPOGRAPHY */
+  h1{
+    font-size: 2em;
+    letter-spacing: -.05em;
+    line-height: 1;
+    margin: .25em 0;
+  }
+  article p{
+    line-height: 1.4;
+    padding-top: 10px;
+  }
+  span{
+    font-size: .75em;
+    text-transform: uppercase;
+    word-spacing: .0625em;
+  }
+  
+  @supports (display: grid){
+    @media only screen and (min-width: 768px){
+      main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-gap: 1.5em;
+        max-width: 1140px;
+        padding: 1.5em;
+      }
+  
+      section{
+        margin: 0;
+      }
+    }
+  }
