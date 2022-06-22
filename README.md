@@ -1,1 +1,3 @@
-# Dev-Portfoilo
+## This is my Portfolio
+
+This portfolio was built with React.JS and next. Many styled-components was created to be used everywhere on the app.
