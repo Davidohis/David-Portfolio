@@ -60,7 +60,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="https://davidigheose.hashnode.dev/">
+        <a href="https://davidigheose.hashnode.dev/" target="_blank">
           <NavLink>Blog</NavLink>
         </a>
       </li>
