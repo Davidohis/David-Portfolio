@@ -50,7 +50,7 @@ function Hero() {
           }}
           onClick={() =>
             (window.location =
-              "https://drive.google.com/file/d/1H11e2Q1nXuhoafTiW3J7NU9RSfYcj8DO/view?usp=sharing")
+              "https://drive.google.com/file/d/14uSHFiJo4uSOXoFm7jN9E3yLGSFlMYpy/view?usp=sharing")
           }
         >
           Resume
