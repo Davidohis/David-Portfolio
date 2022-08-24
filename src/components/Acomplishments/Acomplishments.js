@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
@@ -32,12 +31,12 @@ const Acomplishments = () => (
 
     <Boxes>
       {data.map((card, index) => (
-        <Link href={card.link}>
+        <a href={card.link} target="_blank">
           <Box key={index}>
             <BoxNum>{card.number}</BoxNum>
             <BoxText>{card.text}</BoxText>
           </Box>
-        </Link>
+        </a>
       ))}
     </Boxes>
   </Section>
