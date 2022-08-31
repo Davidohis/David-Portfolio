@@ -21,8 +21,9 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       Throughout my coding journey, I've dedicated my time to learning. <br />
-      HTML, CSS, JavaScript, SASS, Bootstrap, Styled Components, Next.js, React
-      js, Graph QL, React Query, Material UI, React Native, Redux, and Git.
+      Skills: HTML, CSS, JavaScript, React js, Next.js, React Native, Redux,
+      Graph QL, React Query, Material UI, Ant Design, Styled Components, SASS,
+      Bootstrap, and Git.
     </SectionText>
     <List>
       <ListItem>

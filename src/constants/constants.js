@@ -1,18 +1,18 @@
 export const projects = [
   {
-    title: "Balloon Africa (fintech web application)",
-    description: `Let’s walk with you on your journey to prosperity. Meet your financial goals with Balloon Africa. Wherever you are in your financial journey, we'll work with you to build an investment and wealth strategy to help you reach your goals.`,
-    image: "/assets/balloon.PNG",
-    visit: "none",
-    id: Math.random(),
-  },
-  {
     title: "File75 (fintech web application)",
     description: `File is Silicon Edge’s flagship product. Silicon Edge is on a mission to accelerate Nigeria's 
     economy through business registration support to new entrants and
     entrepreneurs looking to legalise their business.`,
     image: "/assets/file.png",
     visit: "https://www.file.ng/",
+    id: Math.random(),
+  },
+  {
+    title: "Balloon Africa (fintech web application)",
+    description: `Let’s walk with you on your journey to prosperity. Meet your financial goals with Balloon Africa. Wherever you are in your financial journey, we'll work with you to build an investment and wealth strategy to help you reach your goals.`,
+    image: "/assets/balloon.PNG",
+    visit: "none",
     id: Math.random(),
   },
   {

@@ -10,17 +10,12 @@ import {
   UtilityList,
   Img,
 } from "./ProjectsStyles";
-import {
-  Section,
-  SectionDivider,
-  SectionTitle2,
-} from "../../styles/GlobalComponents";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
 const ProjectsComponent = () => (
-  <Section nopadding id="projects">
-    <SectionDivider />
-    <SectionTitle2 main>Projects</SectionTitle2>
+  <Section id="projects">
+    <SectionTitle>Projects</SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, visit }) => (
         <BlogCard key={id}>
@@ -35,7 +30,7 @@ const ProjectsComponent = () => (
               ""
             ) : (
               <ExternalLinks href={visit} target={"_blank"}>
-                Visit
+                View site
               </ExternalLinks>
             )}
           </UtilityList>

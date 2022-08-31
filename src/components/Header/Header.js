@@ -45,6 +45,11 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
+        <Link href="/">
+          <NavLink>Home</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="/projects">
           <NavLink>Projects</NavLink>
         </Link>
@@ -66,16 +71,19 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/davidohis">
+      <SocialIcons href="https://github.com/davidohis" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/davidigheose/">
+      <SocialIcons
+        href="https://www.linkedin.com/in/davidigheose/"
+        target="_blank"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/DavidIgheose">
+      <SocialIcons href="https://twitter.com/DavidIgheose" target="_blank">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:davidigheose@gmail.com">
+      <SocialIcons href="mailto:davidigheose@gmail.com" target="_blank">
         <AiOutlineContacts size="3rem" />
       </SocialIcons>
     </Div3>

@@ -12,7 +12,7 @@ function Hero() {
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hi There 👋🏾, I'm
+          Hi there 👋🏾, I'm
           <br />
           <Span
             style={{
@@ -24,20 +24,19 @@ function Hero() {
           <br />
         </SectionTitle>
         <SectionText2>
-          A Software Engineer{" "}
+          A{" "}
           <span
             style={{
               color: "#e7f6ba",
-              textDecoration: "underline",
             }}
           >
-            (Front-End)
+            Front-End Developer
           </span>{" "}
-          at Asset & Equity Group 🏆, I focus majorly on the frontend side of
-          applications, with professional experience in React (and its
-          frameworks) and basic experience of Vue. I also love building
-          accessible applications, passionate about clean, testable, and
-          maintainable code. In my free time, I attend online meetups and
+          at Asset & Equity Group 🏆 with 3 years of experience, I focus majorly
+          on the frontend side of applications, with professional experience in
+          React (and its frameworks) and basic experience of Vue. I also love
+          building accessible applications, passionate about clean, testable,
+          and maintainable code. In my free time, I attend online meetups and
           conferences, listen to podcasts, read blogs and take online courses in
           order to help me become a better developer.
           <br />
@@ -53,7 +52,7 @@ function Hero() {
               "https://drive.google.com/file/d/14uSHFiJo4uSOXoFm7jN9E3yLGSFlMYpy/view?usp=sharing")
           }
         >
-          Resume
+          My Resume
         </ListTitle>
       </LeftSection>
     </Section>

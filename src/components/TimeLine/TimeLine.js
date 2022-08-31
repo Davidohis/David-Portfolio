@@ -66,7 +66,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a Software Engineer with years of experience in building web
+        A Front-End Developer with 3 years of experience in building web
         applications specializing in frontend development & scalable
         applications. I analyze software requirements critically and prioritize
         effectively. I’m a good observer of software engineering best practices
