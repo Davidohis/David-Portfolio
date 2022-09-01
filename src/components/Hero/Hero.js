@@ -49,7 +49,7 @@ function Hero() {
           }}
           onClick={() =>
             (window.location =
-              "https://drive.google.com/file/d/14uSHFiJo4uSOXoFm7jN9E3yLGSFlMYpy/view?usp=sharing")
+              "https://drive.google.com/file/d/18DLFkEBvKhRSRsjHK-SVsXzTZlRx1G9Y/view?usp=sharing")
           }
         >
           My Resume
