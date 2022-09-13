@@ -9,13 +9,6 @@ export const projects = [
     id: Math.random(),
   },
   {
-    title: "Balloon Africa (fintech web application)",
-    description: `Let’s walk with you on your journey to prosperity. Meet your financial goals with Balloon Africa. Wherever you are in your financial journey, we'll work with you to build an investment and wealth strategy to help you reach your goals.`,
-    image: "/assets/balloon.PNG",
-    visit: "none",
-    id: Math.random(),
-  },
-  {
     title: "Razu.io (fintech web application)",
     description: `Razu is a networking and collaborating service for artists in the music industry. 
     We provide music creators the collaborative tools to create and enhance songs virtually.`,
@@ -28,6 +21,13 @@ export const projects = [
     description: `Lagos Country Club is a private, family country club devoted to the social well- being of it's members. Founded in 1949, LCC maintains an excellent multi-sports history and is located in Ikeja, Lagos.`,
     image: "/assets/lcc.png",
     visit: "https://www.lagoscountryclub.net/",
+    id: Math.random(),
+  },
+  {
+    title: "Balloon Africa (fintech web application)",
+    description: `Let’s walk with you on your journey to prosperity. Meet your financial goals with Balloon Africa. Wherever you are in your financial journey, we'll work with you to build an investment and wealth strategy to help you reach your goals.`,
+    image: "/assets/balloon.PNG",
+    visit: "none",
     id: Math.random(),
   },
 ];

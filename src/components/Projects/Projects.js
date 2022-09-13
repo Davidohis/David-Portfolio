@@ -23,22 +23,22 @@ const ProjectsComponent = () => (
         <BlogCard key={id}>
           <Img src={image} />
           <HeaderThree title>{title}</HeaderThree>
-          <TagList>
+          {/* <TagList>
             <Tag>HTML HTML</Tag>
             <Tag>HTML HTML</Tag>
             <Tag>HTML HTML</Tag>
             <Tag>HTML HTML</Tag>
             <Tag>HTML HTML</Tag>
-          </TagList>
+          </TagList> */}
           <CardInfo>{description}</CardInfo>
           <UtilityList>
             {visit === "none" ? (
               ""
             ) : (
               <>
-                <ExternalLinks href={visit} target={"_blank"}>
+                {/* <ExternalLinks href={visit} target={"_blank"}>
                   Code
-                </ExternalLinks>
+                </ExternalLinks> */}
                 <ExternalLinks href={visit} target={"_blank"}>
                   Demo
                 </ExternalLinks>

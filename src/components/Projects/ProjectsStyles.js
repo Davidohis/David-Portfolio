@@ -46,7 +46,7 @@ export const BlogCard = styled.div`
   & img {
     height: 300px;
   }
-  height: 685px;
+  height: 600px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
