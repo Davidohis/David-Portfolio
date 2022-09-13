@@ -3,17 +3,19 @@ import styled from "styled-components";
 export const Section = styled.section`
   display: ${(props) => (props.grid ? "grid" : "flex")};
   flex-direction: ${(props) => (props.row ? "row" : "column")};
-  padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
+  padding: ${(props) => (props.nopadding ? "0" : "40px 48px 0")};
   margin: 0 auto;
   max-width: 1240px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px px 0;
     flex-direction: column;
+    margin-top: 0px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -25,18 +27,19 @@ export const Section = styled.section`
 `;
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
-  font-size: ${(props) => (props.main ? "65px" : "56px")};
+  font-weight: 700;
+  font-size: ${(props) => (props.main ? "60px" : "50px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   text-align: left;
   max-width: 100%;
   line-height: 85px;
   margin-bottom: 16px;
+  margin-left: ${(props) => (props.id === "projects" ? "4rem" : "0px")};
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: ${(props) => (props.main ? "56px" : "48px")};
+    font-size: ${(props) => (props.main ? "54px" : "43px")};
     line-height: ${(props) => (props.main ? "56px" : "48px")};
     margin-bottom: 12px;
     padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
@@ -54,7 +57,7 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionTitle2 = styled.h2`
-  font-weight: 800;
+  font-weight: 700;
   font-size: ${(props) => (props.main ? "65px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
@@ -83,12 +86,10 @@ export const SectionTitle2 = styled.h2`
 `;
 
 export const SectionText = styled.p`
-  max-width: 950px;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: hsl(204, 23.8%, 95.9%);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 420px;
@@ -106,11 +107,10 @@ export const SectionText = styled.p`
 
 export const SectionText2 = styled.p`
   max-width: 85%;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: hsl(204, 23.8%, 95.9%);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 420px;
@@ -131,11 +131,9 @@ export const SectionDivider = styled.div`
   height: 2px;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: #fff;
-  background: ${(props) =>
-    props.colorAlt
-      ? "linear-gradient(270deg, #e7f6ba 0%, #e7f6ba 100%)"
-      : "linear-gradient(270deg, #e7f6ba 0%, #e7f6ba 100%)"};
+  background-color: #bf7506;
+  margin-left: ${(props) => (props.id === "projects" ? "4rem" : "0px")};
+  background: ${(props) => (props.colorAlt ? "#bf7506" : "#bf7506")};
 
   margin: ${(props) => (props.divider ? "4rem 0" : "")};
 

@@ -1,23 +1,9 @@
 import React from "react";
-import {
-  Section,
-  SectionDivider,
-  SectionText,
-  SectionTitle,
-  Btn3,
-} from "../../styles/GlobalComponents";
-import { CgChevronDoubleDownO } from "react-icons/cg";
-import { List, ListItem } from "./TechnologiesStyles";
-import Link from "next/link";
+import { SectionText, SectionTitle } from "../../styles/GlobalComponents";
+import { List, ListItem, TechnologiesWrapper } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id="tech">
-    <Btn3>
-      <Link href="#tech">
-        <CgChevronDoubleDownO />
-      </Link>
-    </Btn3>
-    <SectionDivider style={{ marginBottom: "3%" }} />
+  <TechnologiesWrapper id="Tech">
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       Throughout my coding journey, I've dedicated my time to learning. <br />
@@ -150,8 +136,7 @@ const Technologies = () => (
         <span>Git</span>
       </ListItem>
     </List>
-    <SectionDivider />
-  </Section>
+  </TechnologiesWrapper>
 );
 
 export default Technologies;

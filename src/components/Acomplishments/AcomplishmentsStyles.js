@@ -1,5 +1,16 @@
 import styled from "styled-components";
 
+export const AcomplishmentsWrapper = styled.div`
+  margin: 15rem 0px 2rem 0px;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0px 0px 3.8rem;
+    margin-top: 0rem;
+  }
+`;
 export const Boxes = styled.div`
   width: 100%;
   display: grid;
@@ -23,19 +34,21 @@ export const Boxes = styled.div`
 `;
 
 export const Box = styled.div`
-  background: rgba(255, 255, 255, 0.08);
-  border: 3px solid rgba(255, 255, 255, 0.08);
+  height: 200px;
+  background: #bf750683;
+  border: 2px solid #bf7506;
   border-radius: 12px;
-  height: auto;
   padding: 28px;
   cursor: pointer;
   @media ${(props) => props.theme.breakpoints.lg} {
-    height: 250px;
+    height: 290px;
+    width: 100%;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
     height: 100%;
     padding: 16px;
+    border: 1px solid #bf7506;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {

@@ -16,7 +16,7 @@ function Hero() {
           <br />
           <Span
             style={{
-              color: "#e7f6ba",
+              color: "#BF7506",
             }}
           >
             David Igheose ,
@@ -27,7 +27,7 @@ function Hero() {
           A{" "}
           <span
             style={{
-              color: "#e7f6ba",
+              color: "#BF7506",
             }}
           >
             Front-End Developer
@@ -43,7 +43,7 @@ function Hero() {
         </SectionText2>
         <ListTitle
           style={{
-            color: "#e7f6ba",
+            color: "#BF7506",
             textDecoration: "underline",
             cursor: "pointer",
           }}
@@ -52,7 +52,7 @@ function Hero() {
               "https://drive.google.com/file/d/18DLFkEBvKhRSRsjHK-SVsXzTZlRx1G9Y/view?usp=sharing")
           }
         >
-          My Resume
+          Download CV
         </ListTitle>
       </LeftSection>
     </Section>

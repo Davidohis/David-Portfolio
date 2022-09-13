@@ -17,10 +17,10 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: #110c07d8;//#0F1624 
+    background: #FFFFFF;//#0F1624 
     color: ${(props) => props.theme.colors.primary1};
     cursor: default;
-
+   overflow-x: hidden;
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${(props) => props.theme.fonts.title};

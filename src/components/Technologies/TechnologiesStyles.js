@@ -1,5 +1,16 @@
 import styled from "styled-components";
 
+export const TechnologiesWrapper = styled.div`
+  margin: 1rem 0px 8rem 0px;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0px 0px 3.8rem;
+    margin: 0rem;
+  }
+`;
 export const ImageContainer = styled.div`
   text-align: center;
   background-image: radial-gradient(
@@ -44,13 +55,13 @@ export const List = styled.ul`
 
   @media ${(props) => props.theme.breakpoints.md} {
     margin: 64px 0;
-    gap: 24px;
+    gap: 27px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
-    flex-direction: column;
-    margin: 32px 0;
+    flex-wrap: wrap;
+    margin: 35px 0;
   }
 `;
 
@@ -66,7 +77,7 @@ export const ListContainer = styled.div`
 
 export const ListTitle = styled.h4`
   font-weight: 700;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -115,9 +126,9 @@ export const ListItem = styled.li`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    margin-bottom: 14px;
-    max-width: 320px;
-    flex-direction: row;
+    margin-bottom: 17px;
+    max-width: 350px;
+    flex-direction: column;
   }
 `;
 

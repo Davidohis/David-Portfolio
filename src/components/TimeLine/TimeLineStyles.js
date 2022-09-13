@@ -1,9 +1,20 @@
 import styled from "styled-components";
 
+export const TimelineWrapper = styled.div`
+  margin: 10rem 0px 3rem 0px;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0px 0px 3.8rem;
+    margin: 7rem 0px;
+  }
+`;
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #bf7506;
+  border: 1px solid #bf7506;
   padding: 3rem;
   list-style: none;
   display: flex;
@@ -110,7 +121,7 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
+  color: #ffffff;
   padding-right: 16px;
 
   @media ${(props) => props.theme.breakpoints.md} {

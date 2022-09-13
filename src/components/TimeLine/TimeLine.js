@@ -9,9 +9,9 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
+  TimelineWrapper,
 } from "./TimeLineStyles";
 import {
-  Section,
   SectionDivider,
   SectionText,
   SectionTitle,
@@ -63,7 +63,8 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <TimelineWrapper id="about">
+      <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         A Front-End Developer with 3 years of experience in building web
@@ -78,7 +79,7 @@ const Timeline = () => {
         blissful relationship{" "}
         <a
           style={{
-            color: "#e7f6ba",
+            color: "#BF7506",
             textDecoration: "underline",
           }}
           href="https://www.bible.com/bible/111/jhn.3.16"
@@ -156,7 +157,7 @@ const Timeline = () => {
         ))}
       </CarouselButtons>
       <SectionDivider />
-    </Section>
+    </TimelineWrapper>
   );
 };
 

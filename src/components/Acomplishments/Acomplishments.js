@@ -1,6 +1,12 @@
 import React from "react";
-import { Section, SectionTitle } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
+import {
+  AcomplishmentsWrapper,
+  Box,
+  Boxes,
+  BoxNum,
+  BoxText,
+} from "./AcomplishmentsStyles";
 
 const data = [
   {
@@ -26,7 +32,8 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Section>
+  <AcomplishmentsWrapper>
+    <SectionDivider />
     <SectionTitle>Let's Connect ✨</SectionTitle>
 
     <Boxes>
@@ -39,7 +46,7 @@ const Acomplishments = () => (
         </a>
       ))}
     </Boxes>
-  </Section>
+  </AcomplishmentsWrapper>
 );
 
 export default Acomplishments;
