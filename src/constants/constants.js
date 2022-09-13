@@ -6,6 +6,7 @@ export const projects = [
     entrepreneurs looking to legalise their business.`,
     image: "/assets/file.png",
     visit: "https://www.file.ng/",
+    code: "none",
     id: Math.random(),
   },
   {
@@ -14,12 +15,22 @@ export const projects = [
     We provide music creators the collaborative tools to create and enhance songs virtually.`,
     image: "/assets/razu.png",
     visit: "https://www.razu.io/",
+    code: "none",
+    id: Math.random(),
+  },
+  {
+    title: "Boldo Technologies (Website Clone)",
+    description: `Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.`,
+    visit: "https://the-tonic-technologies.vercel.app/",
+    image: "/assets/boldo-app.jpg",
+    code: "https://github.com/Davidohis/The-Tonic-Technologies",
     id: Math.random(),
   },
   {
     title: "Lagos country club",
     description: `Lagos Country Club is a private, family country club devoted to the social well- being of it's members. Founded in 1949, LCC maintains an excellent multi-sports history and is located in Ikeja, Lagos.`,
     image: "/assets/lcc.png",
+    code: "none",
     visit: "https://www.lagoscountryclub.net/",
     id: Math.random(),
   },
@@ -28,6 +39,7 @@ export const projects = [
     description: `Let’s walk with you on your journey to prosperity. Meet your financial goals with Balloon Africa. Wherever you are in your financial journey, we'll work with you to build an investment and wealth strategy to help you reach your goals.`,
     image: "/assets/balloon.PNG",
     visit: "none",
+    code: "none",
     id: Math.random(),
   },
 ];
