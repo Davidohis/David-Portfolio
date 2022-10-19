@@ -30,7 +30,7 @@ function Hero() {
               color: "#BF7506",
             }}
           >
-            Front-End Developer
+            Front-End Engineer
           </span>{" "}
           at Asset & Equity Group 🏆 with 3 years of experience, I focus majorly
           on the frontend side of applications, with professional experience in

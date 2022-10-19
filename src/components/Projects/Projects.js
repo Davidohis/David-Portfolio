@@ -16,7 +16,7 @@ import { projects } from "../../constants/constants";
 
 const ProjectsComponent = () => (
   <ProjectsWrapper id="projects">
-    <SectionDivider id="projects" />
+    {/* <SectionDivider id="projects" />
     <SectionTitle id="projects">Projects</SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, code, title, description, visit }) => (
@@ -29,7 +29,7 @@ const ProjectsComponent = () => (
             <Tag>HTML HTML</Tag>
             <Tag>HTML HTML</Tag>
             <Tag>HTML HTML</Tag>
-          </TagList> */}
+          </TagList> 
           <CardInfo>{description}</CardInfo>
           <UtilityList>
             {code === "none" ? (
@@ -49,7 +49,7 @@ const ProjectsComponent = () => (
           </UtilityList>
         </BlogCard>
       ))}
-    </GridContainer>
+    </GridContainer> */}
   </ProjectsWrapper>
 );
 
