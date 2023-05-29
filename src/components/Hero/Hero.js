@@ -39,19 +39,7 @@ I'm a good observer of software engineering best practices and work well in a te
 testable, and maintainable code.
           <br />
         </SectionText2>
-        <ListTitle
-          style={{
-            color: "#BF7506",
-            textDecoration: "underline",
-            cursor: "pointer",
-          }}
-          onClick={() =>
-            (window.location =
-              "https://drive.google.com/file/d/18DLFkEBvKhRSRsjHK-SVsXzTZlRx1G9Y/view?usp=sharing")
-          }
-        >
-          Download CV
-        </ListTitle>
+
       </LeftSection>
     </Section>
   );
