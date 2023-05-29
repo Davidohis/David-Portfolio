@@ -24,21 +24,19 @@ function Hero() {
           <br />
         </SectionTitle>
         <SectionText2>
-          A{" "}
+          As a{" "}
           <span
             style={{
               color: "#BF7506",
             }}
           >
-            Front-End Engineer
+           Senior Frontend Engineer
           </span>{" "}
-          at Asset & Equity Group 🏆 with 3 years of experience, I focus majorly
-          on the frontend side of applications, with professional experience in
-          React (and its frameworks) and basic experience of Vue. I also love
-          building accessible applications, passionate about clean, testable,
-          and maintainable code. In my free time, I attend online meetups and
-          conferences, listen to podcasts, read blogs and take online courses in
-          order to help me become a better developer.
+         About
+ with years of professional experience building web applications, with a focus on frontend development.
+I enjoy critically analyzing software requirements and effectively prioritize them. 
+I'm a good observer of software engineering best practices and work well in a team. I have a strong interest in clean,
+testable, and maintainable code.
           <br />
         </SectionText2>
         <ListTitle
