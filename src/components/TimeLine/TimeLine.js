@@ -67,7 +67,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        A Front-End Developer with 3 years of experience in building web
+        A Senior Frontend Engineer  with years of experience in building web
         applications specializing in frontend development & scalable
         applications. I analyze software requirements critically and prioritize
         effectively. I’m a good observer of software engineering best practices
