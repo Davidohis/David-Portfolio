@@ -24,7 +24,7 @@ function Hero() {
           <br />
         </SectionTitle>
         <SectionText2>
-          As a{" "}
+          A{" "}
           <span
             style={{
               color: "#BF7506",
@@ -32,7 +32,7 @@ function Hero() {
           >
            Senior Frontend Engineer
           </span>{" "}
-         About
+         
  with years of professional experience building web applications, with a focus on frontend development.
 I enjoy critically analyzing software requirements and effectively prioritize them. 
 I'm a good observer of software engineering best practices and work well in a team. I have a strong interest in clean,
