@@ -54,16 +54,37 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        A Senior Frontend Engineer with years of experience in building web
-        applications specializing in frontend development & scalable
-        applications. I analyze software requirements critically and prioritize
-        effectively. I’m a good observer of software engineering best practices
-        and work efficiently in a team. I’m passionate about clean, testable,
-        and maintainable code. I believe that through code we can create a
-        better place for everyone. In my free time, I attend online meetups and
-        conferences, listen to podcasts, read blogs and take online courses in
-        order to help me become a better developer also 💙 A Fun fact: I'm in a
-        blissful relationship{" "}
+        As a Senior Frontend Engineer specializing in web & mobile development,
+        with a passion for crafting exceptional web applications. With years of
+        professional experience, I have honed my skills in analyzing software
+        requirements and prioritizing them effectively. My keen eye for software
+        engineering best practices ensures that I consistently deliver clean,
+        testable, and maintainable code.
+        <br />
+        <br />
+        Working collaboratively in a team is where I thrive, leveraging my
+        strong communication skills and ability to observe and learn from
+        others. I bring a proactive mindset to every project, always striving to
+        understand user needs deeply and translate them into intuitive
+        solutions. My dedication to delivering high-quality software aligns with
+        my commitment to continuously improving the user experience.
+        <br />
+        <br />
+        Driven by my love for front-end development, I enjoy staying updated
+        with the latest technologies and industry trends. I find joy in the
+        challenge of crafting elegant solutions that combine functionality,
+        aesthetics, and optimal performance.
+        <br />
+        <br />
+        I am a highly motivated and skilled Frontend Engineer who excels in
+        frontend development. My expertise and focus on clean code, effective
+        collaboration, and adherence to best practices allow me to make a
+        meaningful impact on projects and create exceptional user experiences.
+        <br />
+        <br />
+        In my free time, I attend online meetups and conferences, listen to
+        podcasts, read blogs and take online courses in order to help me become
+        a better developer also 💙 A Fun fact: I'm in a blissful relationship{" "}
         <a
           style={{
             color: "#BF7506",
