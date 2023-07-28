@@ -5,7 +5,6 @@ import {
   SectionText2,
 } from "../../styles/GlobalComponents";
 import { LeftSection, Span } from "./HeroStyles";
-import { ListTitle } from "../Technologies/TechnologiesStyles";
 
 function Hero() {
   return (
@@ -19,27 +18,17 @@ function Hero() {
               color: "#BF7506",
             }}
           >
-            David Igheose ,
+            David Igheose
           </Span>
           <br />
         </SectionTitle>
         <SectionText2>
-          A{" "}
-          <span
-            style={{
-              color: "#BF7506",
-            }}
-          >
-           Senior Frontend Engineer
-          </span>{" "}
-         
- with years of professional experience building web applications, with a focus on frontend development.
-I enjoy critically analyzing software requirements and effectively prioritize them. 
-I'm a good observer of software engineering best practices and work well in a team. I have a strong interest in clean,
-testable, and maintainable code.
+          Experienced Software Engineer and Mobile Developer skilled in crafting
+          simple and intuitive interfaces through design and code. Passionate
+          about transforming problems into elegant solutions. Committed to
+          delivering exceptional user experiences.
           <br />
         </SectionText2>
-
       </LeftSection>
     </Section>
   );

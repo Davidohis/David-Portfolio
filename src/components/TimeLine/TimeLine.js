@@ -1,16 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import {
-  CarouselButton,
-  CarouselButtonDot,
-  CarouselButtons,
-  CarouselContainer,
-  CarouselItem,
-  CarouselItemImg,
-  CarouselItemText,
-  CarouselItemTitle,
-  CarouselMobileScrollNode,
-  TimelineWrapper,
-} from "./TimeLineStyles";
+import { TimelineWrapper } from "./TimeLineStyles";
 import {
   SectionDivider,
   SectionText,
@@ -18,14 +7,12 @@ import {
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
-
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
   const scroll = (window, left) => {
-    return window.scrollTo({ left, behavior: "smooth" });
+    return window?.scrollTo({ left, behavior: "smooth" });
   };
 
   const handleClick = (e, i) => {
@@ -67,7 +54,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        A Senior Frontend Engineer  with years of experience in building web
+        A Senior Frontend Engineer with years of experience in building web
         applications specializing in frontend development & scalable
         applications. I analyze software requirements critically and prioritize
         effectively. I’m a good observer of software engineering best practices
@@ -90,7 +77,6 @@ const Timeline = () => {
         </a>
       </SectionText>
 
-  
       <SectionDivider />
     </TimelineWrapper>
   );

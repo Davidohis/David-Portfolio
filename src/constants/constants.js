@@ -1,16 +1,46 @@
 export const projects = [
   {
-    title: "File75 (fintech web application)",
-    description: `File is Silicon Edge’s flagship product. Silicon Edge is on a mission to accelerate Nigeria's 
-    economy through business registration support to new entrants and
-    entrepreneurs looking to legalise their business.`,
-    image: "/assets/file.png",
-    visit: "https://www.file.ng/",
+    title: "Seedfi (FinTech)",
+    description: `
+   A powerful solution designed to simplify and enhance the lending process for financial institutions and borrowers alike. 
+   This platform leverages the latest technology to provide a seamless, efficient, and secure lending experience.
+ `,
+    image: "/assets/seedfi.png",
+    visit: "https://theseedfi.com/",
     code: "none",
     id: Math.random(),
   },
   {
-    title: "Razu.io (fintech web application)",
+    title: "Crust Africa (FinTech)",
+    description: `Digital banking for everyone in Agriculture. 
+    We make it easy for farmers, agribusinesses, and
+SMEs to access financial tools and services for them
+to grow and prosper.`,
+    image: "/assets/crust.png",
+    visit: "https://www.crust.africa/",
+    code: "none",
+    id: Math.random(),
+  },
+  {
+    title: "BeaconHealth (FinTech)",
+    description: `Modern, tech-enabled diagnostic centers designed for clinically-underserved communities. 
+    BeaconHealth Diagnostics offers Nigerians the best patient experience and fast, accurate results.  
+    From x-ray and lab tests to EEG and ultrasounds, we have your diagnostic needs covered.`,
+    image: "/assets/mdaas.png",
+    visit: "https://www.beaconhealth.io/",
+    code: "none",
+    id: Math.random(),
+  },
+  {
+    title: "Turbomoni (FinTech)",
+    description: `Turbomoni is an automated goal-based savings solution for everyone. From tracking your money; budgeting your expenses and making payments.`,
+    image: "/assets/turbo-money.png",
+    visit: "https://www.turbomoni.ng/",
+    code: "none",
+    id: Math.random(),
+  },
+  {
+    title: "Razu.io (FinTech)",
     description: `Razu is a networking and collaborating service for artists in the music industry. 
     We provide music creators the collaborative tools to create and enhance songs virtually.`,
     image: "/assets/razu.png",
@@ -19,11 +49,22 @@ export const projects = [
     id: Math.random(),
   },
   {
-    title: "Boldo Technologies (Website Clone)",
-    description: `Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.`,
-    visit: "https://the-tonic-technologies.vercel.app/",
-    image: "/assets/boldo-app.jpg",
-    code: "https://github.com/Davidohis/The-Tonic-Technologies",
+    title: "Asset & Equity Group",
+    description: `A digital investment platform accessed through Balloon Africa, provides 
+    clients access to invest in selected investments aligned to their investment objectives.`,
+    visit: "https://www.assetandequitygroup.com/",
+    image: "/assets//aeg.png",
+    code: "none",
+    id: Math.random(),
+  },
+  {
+    title: "Inventory by Enyata (FinTech)",
+    description: `Ultimate solution to streamline and optimize your online retail operations. 
+    Our platform is designed to simplify inventory management for businesses of all sizes, 
+    empowering you to focus on growth and customer satisfaction.`,
+    image: "/assets/inventory.png",
+    visit: "https://inventory.enyata.com/",
+    code: "none",
     id: Math.random(),
   },
   {
@@ -35,10 +76,23 @@ export const projects = [
     id: Math.random(),
   },
   {
-    title: "Balloon Africa (fintech web application)",
-    description: `Let’s walk with you on your journey to prosperity. Meet your financial goals with Balloon Africa. Wherever you are in your financial journey, we'll work with you to build an investment and wealth strategy to help you reach your goals.`,
-    image: "/assets/balloon.PNG",
-    visit: "none",
+    title: "File75 (FinTech)",
+    description: `File is Silicon Edge’s flagship product. Silicon Edge is on a mission to accelerate Nigeria's 
+    economy through business registration support to new entrants and
+    entrepreneurs looking to legalise their business.`,
+    image: "/assets/file.png",
+    visit: "https://www.file.ng/",
+    code: "none",
+    id: Math.random(),
+  },
+  {
+    title: "Balloon Africa (FinTech)",
+    description: `
+    BalloonAfrica is an automated goal-based savings solution for everyone. 
+    From tracking your money; budgeting your expenses and making payments.
+ `,
+    image: "/assets/balloon.png",
+    visit: "https://www.assetandequitygroup.com/",
     code: "none",
     id: Math.random(),
   },

@@ -8,48 +8,39 @@ import {
   UtilityList,
   Img,
   ProjectsWrapper,
-  TagList,
-  Tag,
+  HeaderPreTitle,
+  HeaderTitle,
+  SectionHeader,
 } from "./ProjectsStyles";
-import { SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
 const ProjectsComponent = () => (
   <ProjectsWrapper id="projects">
-    {/* <SectionDivider id="projects" />
-    <SectionTitle id="projects">Projects</SectionTitle>
+    <SectionHeader>
+      <HeaderPreTitle>Featured Projects</HeaderPreTitle>
+      <HeaderTitle>Some of the projects I have worked on.</HeaderTitle>
+    </SectionHeader>
+
     <GridContainer>
-      {projects.map(({ id, image, code, title, description, visit }) => (
+      {projects.map(({ id, image, title, description, visit }) => (
         <BlogCard key={id}>
           <Img src={image} />
           <HeaderThree title>{title}</HeaderThree>
-          {/* <TagList>
-            <Tag>HTML HTML</Tag>
-            <Tag>HTML HTML</Tag>
-            <Tag>HTML HTML</Tag>
-            <Tag>HTML HTML</Tag>
-            <Tag>HTML HTML</Tag>
-          </TagList> 
+
           <CardInfo>{description}</CardInfo>
+
           <UtilityList>
-            {code === "none" ? (
-              ""
-            ) : (
-              <ExternalLinks href={code} target={"_blank"}>
-                Code
-              </ExternalLinks>
-            )}
             {visit === "none" ? (
               ""
             ) : (
               <ExternalLinks href={visit} target={"_blank"}>
-                Demo
+                visit product
               </ExternalLinks>
             )}
           </UtilityList>
         </BlogCard>
       ))}
-    </GridContainer> */}
+    </GridContainer>
   </ProjectsWrapper>
 );
 

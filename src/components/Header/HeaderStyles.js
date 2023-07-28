@@ -64,7 +64,7 @@ export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
   font-weight: 400;
-  color: #bf7506;
+  color: #2e2e2e;
   transition: 0.4s ease;
   &:hover {
     opacity: 1;

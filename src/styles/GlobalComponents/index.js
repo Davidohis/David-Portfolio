@@ -27,6 +27,7 @@ export const Section = styled.section`
 `;
 
 export const SectionTitle = styled.h2`
+  text-align: center;
   font-weight: 700;
   font-size: ${(props) => (props.main ? "60px" : "50px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
@@ -36,7 +37,7 @@ export const SectionTitle = styled.h2`
   line-height: 85px;
   margin-bottom: 16px;
   margin-left: ${(props) => (props.id === "projects" ? "4rem" : "0px")};
-  padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+  padding: ${(props) => (props.main ? "58px 0 10px" : "0")};
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${(props) => (props.main ? "54px" : "43px")};
