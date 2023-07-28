@@ -6,13 +6,13 @@ import {
   GridContainer,
   HeaderThree,
   UtilityList,
-  Img,
   ProjectsWrapper,
   HeaderPreTitle,
   HeaderTitle,
   SectionHeader,
 } from "./ProjectsStyles";
 import { projects } from "../../constants/constants";
+import Image from "next/image";
 
 const ProjectsComponent = () => (
   <ProjectsWrapper id="projects">
@@ -24,7 +24,8 @@ const ProjectsComponent = () => (
     <GridContainer>
       {projects.map(({ id, image, title, description, visit }) => (
         <BlogCard key={id}>
-          <Img src={image} />
+          <Image src={image} width={750} height={450} />
+
           <HeaderThree title>{title}</HeaderThree>
 
           <CardInfo>{description}</CardInfo>

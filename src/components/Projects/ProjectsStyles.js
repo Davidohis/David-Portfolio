@@ -48,17 +48,6 @@ export const ProjectsWrapper = styled.div`
     padding: 0px 0px 0px 1rem;
   }
 `;
-export const Img = styled.img`
-  width: 100%;
-  height: 450px;
-  margin-bottom: 0;
-  overflow: hidden;
-  border-radius: 1rem 1rem 0px 0px;
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    height: 100%;
-  }
-`;
 
 export const GridContainer = styled.section`
   margin-top: 5rem;
