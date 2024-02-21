@@ -58,7 +58,7 @@ const Timeline = () => {
         with a passion for crafting exceptional web applications. With years of
         professional experience, I have honed my skills in analyzing software
         requirements and prioritizing them effectively. My keen eye for software
-        engineering best practices ensures that I consistently deliver clean,
+        engineering best practices ensure that I consistently deliver clean,
         testable, and maintainable code.
         <br />
         <br />
@@ -72,7 +72,7 @@ const Timeline = () => {
         <br />
         Driven by my love for front-end development, I enjoy staying updated
         with the latest technologies and industry trends. I find joy in the
-        challenge of crafting elegant solutions that combine functionality,
+        the challenge of crafting elegant solutions that combine functionality,
         aesthetics, and optimal performance.
         <br />
         <br />
@@ -83,7 +83,7 @@ const Timeline = () => {
         <br />
         <br />
         In my free time, I attend online meetups and conferences, listen to
-        podcasts, read blogs and take online courses in order to help me become
+        podcasts, read blogs and take online courses to help me become
         a better developer also 💙 A Fun fact: I'm in a blissful relationship{" "}
         <a
           style={{
