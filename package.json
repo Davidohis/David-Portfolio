@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "ityped": "^1.0.3",
-    "next": "^12.1.6",
+    "next": "^15.5.10",
     "react": "17.0.2",
     "react-animations": "^1.0.0",
     "react-bootstrap": "^2.1.1",
